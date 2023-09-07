@@ -1,0 +1,246 @@
+body {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 18rem;
+    gap: 2rem;
+}
+
+.container_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px 25px 25px;
+    width: 20rem;
+    box-shadow: 15px 15px 15px hsl(221, 100%, 96%, 1px);
+    height: 28rem;
+}
+
+.container_right {
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 15px 30px 10px;
+    width: 20rem;
+    box-shadow: 15px 15px 15px hsl(221, 100%, 96%);
+    height: 28rem;
+    gap: 11px;
+
+}
+
+.attribution {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+}
+
+.your_result {
+    color: hsl(252, 70%, 77%);
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.circle {
+
+    border-radius: 100%;
+    width: 60%;
+    height: 40%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.my76 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    font-weight: 800;
+}
+
+.of100 {
+    color: hsla(252, 100%, 77%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5px;
+
+}
+
+.great {
+    font-size: 30px;
+    color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.yourscore {
+    text-align: center;
+    width: 70%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    color: hsl(241, 100%, 89%);
+    margin-top: 5px;
+}
+
+.summary {
+    display: flex;
+    padding-right: 30px;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: right;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 201, 201);
+    border-radius: 15px;
+    width: 80%;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.memory {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(37, 35%, 93%);
+    border-radius: 15px;
+    width: 80%;
+    padding: 0 10px;
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(222, 235, 232);
+    border-radius: 15px;
+    width: 80%;
+    padding: 0 10px;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(186, 191, 236);
+    border-radius: 15px;
+    width: 80%;
+    padding: 0 10px;
+}
+
+.reaction_font {
+    display: flex;
+    justify-content: left;
+    color: hsl(0, 100%, 67%);
+    font-weight: 800;
+
+}
+
+.memory_font {
+    color: hsl(39, 100%, 56%);
+    font-weight: 800;
+}
+
+.verbal_font {
+    color: hsl(166, 100%, 37%);
+    font-weight: 800;
+}
+
+.visual_font {
+    color: hsl(234, 85%, 45%);
+    font-weight: 800;
+}
+
+
+.button {
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 25px;
+    color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    height: 45px;
+    width: 85%;
+    margin-top: 2rem;
+    border: none;
+
+}
+
+button:hover {
+    background-color: hsla(241, 81%, 54%, 1);
+}
+
+.summary1 {
+    display: flex;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.myBold {
+    font-weight: bold;
+}
+
+.mybold1 {
+    color: gray;
+    font-weight: 800;
+}
+
+.inner {
+    display: flex;
+    gap: 2rem;
+    box-shadow: 15px 15px 15px hsl(221, 100%, 96%);
+}
+
+@media only screen and (max-width:665px) {
+    .inner {
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: none;
+        gap: 0;
+
+    }
+
+    .container_right {
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .summary1 {
+        text-align: start;
+        margin-right: 10rem;
+    }
+
+    .attribution {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .container {
+        margin-top: 2rem;
+    }
+}
